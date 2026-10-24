@@ -13,7 +13,6 @@ IntegriView stores the following data **locally in your browser's `localStorage`
 - SAP Integration Suite tenant URLs
 - Authentication credentials (username/password for Basic auth, or client ID and client secret for OAuth)
 - OAuth token URLs
-- GitHub Personal Access Token (PAT)
 - Application preferences (theme, collapsed state)
 
 No personally identifiable information (name, email, address) is collected.
@@ -24,7 +23,6 @@ Stored credentials are used solely to:
 
 - Authenticate with your own SAP Integration Suite tenant APIs (`*.hana.ondemand.com`) to fetch integration artifacts, package lists, and externalized parameters
 - Obtain OAuth tokens from your tenant's authentication endpoint (`*.authentication.sap.hana.ondemand.com`)
-- Authenticate with your GitHub repository to read integration artifact files
 
 ## Data Storage
 
